@@ -38,7 +38,7 @@
     <div v-if="error">{{ error }}</div>
     <div v-for="project in projects" :key="project.id" class="project-item">
       <h3>{{ project.nombre }}</h3>
-      <img v-if="project.imagen" :src="`http://localhost:3000${project.imagen}`" alt="Imagen del proyecto" class="project-image" />
+      <img v-if="project.imagen" :src="`https://backend-r7cy.onrender.com${project.imagen}`" alt="Imagen del proyecto" class="project-image" />
       <p>{{ project.descripcion }}</p>
       <div v-if="project.enlace">
         <strong>Enlace:</strong> <a :href="project.enlace" target="_blank">{{ project.enlace }}</a>
