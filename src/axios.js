@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Crear una instancia de Axios
 const instance = axios.create({
-  baseURL: 'https://backend-r7cy.onrender.com:10000', // Cambia esto a la URL de tu backend
+  baseURL: 'https://backend-r7cy.onrender.com', // Cambia esto a la URL de tu backend
   timeout: 1000, // Tiempo de espera para las solicitudes en milisegundos
 });
 
